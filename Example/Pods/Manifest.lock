@@ -1,0 +1,17 @@
+PODS:
+  - DzCategory (0.1.0)
+  - FBSnapshotTestCase (1.7)
+
+DEPENDENCIES:
+  - DzCategory (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DzCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DzCategory: 7771a2634d63545ea4de4cffded46ba812d27f18
+  FBSnapshotTestCase: 1eea5145c1f2fa907812ab92e1d6063a8d809b4e
+
+COCOAPODS: 0.36.4

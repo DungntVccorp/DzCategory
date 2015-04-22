@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'DzCategory', :exclusive => true do
+  pod "DzCategory", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "DzCategory", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
