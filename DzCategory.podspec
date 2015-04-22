@@ -1,38 +1,12 @@
-#
-# Be sure to run `pod lib lint DzCategory.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
-  s.name             = "DzCategory"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of DzCategory."
-  s.description      = <<-DESC
-                       An optional longer description of DzCategory
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DzCategory"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
-  s.license          = 'MIT'
-  s.author           = { "DungntVccorp" => "dung.nt.a5901679@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DzCategory.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform     = :ios, '7.0'
-  s.requires_arc = true
-
-  s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'DzCategory' => ['Pod/Assets/*.png']
-  }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.name             = "DzCategory"
+s.version          = "1.0.0"
+s.summary          = "DzLib dungnt Collection liblary"
+s.homepage         = "https://github.com/DungntVccorp/DzCategory.git"
+s.license          = 'Apache License'
+s.author           = { "dung.nt" => "dung.nt.a5901679@gmail.com@gzone.com.vn" }
+s.source           = { :git => "https://github.com/DungntVccorp/DzCategory.git", :tag => s.version.to_s }
+s.platform     = :ios, '7.0'
+s.requires_arc = true
+s.source_files = 'Pod/Classes/DzCategory/*.{h,m}'
 end
