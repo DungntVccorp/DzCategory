@@ -227,6 +227,8 @@
     
     return finalString2;
 }
+
+
 -(NSString *) stringByStrippingHTML {
     NSRange r;
     NSString *s = [self copy];

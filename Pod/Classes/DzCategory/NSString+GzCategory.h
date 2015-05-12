@@ -28,5 +28,6 @@
 -(BOOL)passwordIsValid;
 -(BOOL)UserNameIsValid;
 -(NSString *)normalizeVietnameseString;
+
 -(NSString *) stringByStrippingHTML;
 @end
