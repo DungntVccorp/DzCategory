@@ -215,4 +215,16 @@
     
     return YES;
 }
+-(NSString *)normalizeVietnameseString {
+    NSMutableString *originStr = [[NSMutableString alloc] initWithString:self];
+    CFStringNormalize((CFMutableStringRef)originStr, kCFStringNormalizationFormD);
+    
+    CFStringFold((CFMutableStringRef)originStr, kCFCompareDiacriticInsensitive, NULL);
+    
+    NSString *finalString1 = [originStr stringByReplacingOccurrencesOfString:@"u0111"withString:@"d"];
+    
+    NSString *finalString2 = [finalString1 stringByReplacingOccurrencesOfString:@"u0110"withString:@"D"];
+    
+    return finalString2;
+}
 @end

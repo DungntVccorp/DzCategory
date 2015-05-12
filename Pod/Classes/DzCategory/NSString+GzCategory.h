@@ -27,4 +27,5 @@
 -(BOOL)isEmail;
 -(BOOL)passwordIsValid;
 -(BOOL)UserNameIsValid;
+-(NSString *)normalizeVietnameseString;
 @end
